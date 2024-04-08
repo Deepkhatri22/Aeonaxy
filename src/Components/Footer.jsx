@@ -194,7 +194,7 @@ const Footer = () => {
                                 &copy; 2006-2022 Wix.com, inc
                             </p>
 
-                            <div className='flex mt-5 gap-3 text-gray-500 text-xl'>
+                            <div className='flex mt-5 gap-3 text-gray-500 text-xl cursor-pointer'>
                                 <FaFacebookF/>
                                 <FaTwitter/>
                                 <FaYoutube/>
