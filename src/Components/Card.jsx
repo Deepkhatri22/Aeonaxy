@@ -11,7 +11,11 @@ function Card({ image, title, desc }) {
                 <div className='flex flex-col gap-1 px-10 mt-3'>
                     <h1 className='font-bold text-xl'>{title}</h1>
                     <p>{desc}</p>
-                    <p className='font-bold underline cursor-pointe'>Explore Now <span><FaArrowRightLong /></span></p>
+                    <div className='flex gap-2 justify-start items-center'>
+
+                        <p className='font-bold underline cursor-pointe'>Explore Now </p>
+                        <span><FaArrowRightLong /></span>
+                    </div>
                 </div>
             </section>
         </>
